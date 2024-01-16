@@ -1,0 +1,5 @@
+docker build -t harsh1111/week-8 .
+docker run -p 5050:3000 harsh1111/week-8
+docker ps
+
+http://localhost:5050/addTwoNumber?n1=5&n2=9
